@@ -1,0 +1,19 @@
+{
+  "name": "marble-rxjs-bun-demo",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@marblejs/core": "^4.1.0",
+    "@marblejs/http": "^4.1.0",
+    "@marblejs/middleware-body": "^4.1.0",
+    "@marblejs/middleware-logger": "^4.1.0",
+    "fp-ts": "^2.16.2",
+    "rxjs": "^7.8.1"
+  }
+}
